@@ -5,7 +5,7 @@ export default function getSvg(title: string, footer: string): string {
     <style>
       .title { font: bolder 72px Helvetica; color: #252A31; height: 100%; display: flex; align-items: center; justify-content: center; }
     </style>
-<rect width="1500" height="300" fill="#000"/>
+<rect width="1500" height="300" fill="#ddd"/>
     <foreignObject x="0" y="0" width="1500" height="300">
       <div class="title" xmlns="http://www.w3.org/1999/xhtml">
         ${title}
