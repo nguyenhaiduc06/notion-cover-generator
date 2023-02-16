@@ -21,7 +21,7 @@ export default function handler(
 ) {
   res.statusCode = 200;
   res.setHeader("Content-type", "image/svg+xml");
-  res.setHeader("Cache-Control",
-    "public, immutable, no-transform, s-maxage=31536000, max-age=31536000");
+  // res.setHeader("Cache-Control",
+    // "public, immutable, no-transform, s-maxage=31536000, max-age=31536000");
   return res.end(svg);
 }
