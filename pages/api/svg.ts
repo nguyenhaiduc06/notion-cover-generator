@@ -13,7 +13,7 @@ export default function handler(
   const svg = getSvg(String(req.query.title), String(req.query.footer));
   res.statusCode = 200;
   res.setHeader("Content-type", "image/svg+xml");
-  // res.setHeader("Cache-Control",
-    // "public, immutable, no-transform, s-maxage=31536000, max-age=31536000");
+  res.setHeader("Cache-Control",
+    "no-store");
   return res.end(svg);
 }
