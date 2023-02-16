@@ -14,6 +14,6 @@ export default function handler(
   res.statusCode = 200;
   res.setHeader("Content-type", "image/svg+xml");
   res.setHeader("Cache-Control",
-    "no-store");
+    "no-cache");
   return res.end(svg);
 }
