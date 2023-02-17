@@ -17,7 +17,7 @@ export default function getSvg(title: string, presetName: string): string {
       </linearGradient>
     </defs>
     <rect width="1500" height="300" fill="url(#${presetName})"/>
-    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="24px">${title}</text>
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="48px">${title}</text>
   </svg>
   `;
 
